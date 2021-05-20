@@ -1,0 +1,29 @@
+{
+  "name": "muvon/jwt",
+  "description": "Implementation of JWT encode, decode verify usiung php ext jwt.so",
+  "keywords": [
+    "jwt",
+    "es256",
+    "elliptic"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Muvon Co. Ltd",
+      "email": "contact@muvon.io"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require-dev": {
+    "phpunit/phpunit": "^10"
+  },
+  "require": {
+    "simplito/elliptic-php": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Muvon\\JWT\\": "src/"
+    }
+  }
+}
